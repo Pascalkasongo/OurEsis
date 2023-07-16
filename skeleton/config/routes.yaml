@@ -9,4 +9,6 @@ kernel:
 Home:
     path: /
     controller: App\Controller\HomeController::index
-    
+MainHome:
+    path: /Acceuil
+    controller: App\Controller\HomeController::MainIndex

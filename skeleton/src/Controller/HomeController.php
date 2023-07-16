@@ -11,4 +11,7 @@ class HomeController extends AbstractController{
         return $this->render('mine/signin.html.twig');
     }
 
+    public function MainIndex():Response{
+        return $this->render('base.html.twig');
+    }
 }
