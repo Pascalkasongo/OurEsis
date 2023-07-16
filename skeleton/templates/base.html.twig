@@ -7,7 +7,7 @@
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
-            {{ encore_entry_link_tags('app') }}
+            
             <link rel="stylesheet" href="{{asset('assets/style.css')}}">
             <link href="{{asset('assets/css/vendors/flatpickr.min.css')}}" rel="stylesheet">
         {% endblock %}
@@ -66,10 +66,7 @@
                 <div class="cmo3i">
                     <!-- Pages group -->
                     <div>
-                        <h3 class="text-slate-500 ca8f5 clvip cev1n c543w">
-                            <span class="hidden 2xl:hidden cio77 cfj0h cd4ca cdjcj ceup6" aria-hidden="true">•••</span>
-                            <span class="2xl:block cfvlm c14am ccry3">Pages</span>
-                        </h3>
+                       
                         <ul class="ceh8i">
                             <!-- Dashboard -->
                             
@@ -83,7 +80,7 @@
                                                 <path class="ccmw1 c7hxs" d="M13 15L0 7v9c0 .355.189.685.496.864L13 24v-9z"></path>
                                                 <path class="c24n3 c7hxs" d="M13 15.047V24l10.573-7.181A.999.999 0 0024 16V8l-11 7.047z"></path>
                                             </svg>
-                                            <span class="text-sm ml-3 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">E-Commerce</span>
+                                            <span class="text-sm ml-3 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Evaluation</span>
                                         </div>
                                         <!-- Icon -->
                                         <div class="flex 2xl:opacity-100 cwmrq criah cwrar cl6tz cz1vo c4j6o">
@@ -97,54 +94,23 @@
                                     <ul class="hidden c318s cwkx2" :class="open ? 'cpgqg' : 'hidden'">
                                         <li class="cai4l ca5ph">
                                             <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="customers.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Customers</span>
+                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Cours</span>
                                             </a>
                                         </li>
                                         <li class="cai4l ca5ph">
                                             <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="orders.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Orders</span>
+                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Auditoire </span>
                                             </a>
                                         </li>
                                         <li class="cai4l ca5ph">
                                             <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="invoices.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Invoices</span>
+                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Toilettes</span>
                                             </a>
                                         </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="shop.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Shop</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="shop-2.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Shop 2</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="product.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Single Product</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="cart.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Cart</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="cart-2.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Cart 2</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="cart-3.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Cart 3</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="pay.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Pay</span>
-                                            </a>
-                                        </li>
+                                        
+                                        
+                                        
+                                        
                                     </ul>
                                 </div>
                             </li>
@@ -157,7 +123,7 @@
                                                 <path class="c24n3 c7hxs" d="M18.974 8H22a2 2 0 012 2v6h-2v5a1 1 0 01-1 1h-2a1 1 0 01-1-1v-5h-2v-6a2 2 0 012-2h.974zM20 7a2 2 0 11-.001-3.999A2 2 0 0120 7zM2.974 8H6a2 2 0 012 2v6H6v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5H0v-6a2 2 0 012-2h.974zM4 7a2 2 0 11-.001-3.999A2 2 0 014 7z"></path>
                                                 <path class="c4cuk c7hxs" d="M12 6a3 3 0 110-6 3 3 0 010 6zm2 18h-4a1 1 0 01-1-1v-6H6v-6a3 3 0 013-3h6a3 3 0 013 3v6h-3v6a1 1 0 01-1 1z"></path>
                                             </svg>
-                                            <span class="text-sm ml-3 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Community</span>
+                                            <span class="text-sm ml-3 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Evenement</span>
                                         </div>
                                         <!-- Icon -->
                                         <div class="flex 2xl:opacity-100 cwmrq criah cwrar cl6tz cz1vo c4j6o">
@@ -171,44 +137,21 @@
                                     <ul class="hidden c318s cwkx2" :class="open ? 'cpgqg' : 'hidden'">
                                         <li class="cai4l ca5ph">
                                             <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="users-tabs.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Users - Tabs</span>
+                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Para-Academique</span>
                                             </a>
                                         </li>
                                         <li class="cai4l ca5ph">
                                             <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="users-tiles.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Users - Tiles</span>
+                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Academique</span>
                                             </a>
                                         </li>
                                         <li class="cai4l ca5ph">
                                             <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="profile.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Profile</span>
+                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Club</span>
                                             </a>
                                         </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="feed.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Feed</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="forum.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Forum</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="forum-post.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Forum - Post</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="meetups.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Meetups</span>
-                                            </a>
-                                        </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="meetups-post.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Meetups - Post</span>
-                                            </a>
-                                        </li>
+                                        
+                                        
                                     </ul>
                                 </div>
                             </li>
@@ -222,7 +165,7 @@
                                                 <path class="ccmw1 c7hxs" d="M18.007 13c-.474 2.833-2.919 5-5.864 5a5.888 5.888 0 0 1-3.694-1.304L4 20.731C6.131 22.752 8.992 24 12.143 24c6.232 0 11.35-4.851 11.857-11h-5.993Z"></path>
                                                 <path class="c24n3 c7hxs" d="M6.939 15.007A5.861 5.861 0 0 1 6 11.829c0-2.937 2.167-5.376 5-5.85V0C4.85.507 0 5.614 0 11.83c0 2.695.922 5.174 2.456 7.17l4.483-3.993Z"></path>
                                             </svg>
-                                            <span class="text-sm ml-3 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Finance</span>
+                                            <span class="text-sm ml-3 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Emplacement</span>
                                         </div>
                                         <!-- Icon -->
                                         <div class="flex 2xl:opacity-100 cwmrq criah cwrar cl6tz cz1vo c4j6o">
@@ -236,19 +179,15 @@
                                     <ul class="hidden c318s cwkx2" :class="open ? 'cpgqg' : 'hidden'">
                                         <li class="cai4l ca5ph">
                                             <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="credit-cards.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Cards</span>
+                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Interrogation</span>
                                             </a>
                                         </li>
                                         <li class="cai4l ca5ph">
                                             <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="transactions.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Transactions</span>
+                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Examen</span>
                                             </a>
                                         </li>
-                                        <li class="cai4l ca5ph">
-                                            <a class="block c2qko c4cuk ccku6 c64rw chd3l" href="transaction-details.html">
-                                                <span class="text-sm 2xl:opacity-100 cwmrq criah cwrar cl6tz cz4nn">Transaction Details</span>
-                                            </a>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </li>
