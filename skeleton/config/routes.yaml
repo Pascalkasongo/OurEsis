@@ -12,3 +12,6 @@ Home:
 MainHome:
     path: /Acceuil
     controller: App\Controller\HomeController::MainIndex
+Login:
+    path: /connexion
+    controller: App\Controller\EtudiantController::new

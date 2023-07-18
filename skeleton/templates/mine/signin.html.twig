@@ -63,24 +63,26 @@
         
                         <h1 class="text-3xl text-slate-800 dark:text-slate-100 font-bold c86fi">Connexion</h1>
                         <!-- Form -->
-                        <form>
+                        {{form_start(form)}}
                             <div class="cj3ez">
                                 <div>
-                                    <label class="block text-sm cz4nn ca5ph" for="email">Email Address</label>
-                                    <input id="email" class="c04hc c96ud" type="email">
+                                    <label class="block text-sm cz4nn ca5ph" for="email">{{form_label(form.name)}}</label>
+                                     <input id="password" class="c04hc c96ud" type="Text" autocomplete="on" name="{{field_name(form.name)}}">
                                 </div>
+
                                 <div>
-                                    <label class="block text-sm cz4nn ca5ph" for="password">Password</label>
-                                    <input id="password" class="c04hc c96ud" type="password" autocomplete="on">
+                                    <label class="block text-sm cz4nn ca5ph" for="email">{{form_label(form.postNom)}}</label>
+                                     <input id="password" class="c04hc c96ud" type="Text" autocomplete="on" name="{{field_name(form.postNom)}}">
                                 </div>
+                                
                             </div>
                             <div class="flex items-center cc2cs cavzi">
                                 <div class="mr-1">
                                     <a class="text-sm c1a8z cdvwq" href="reset-password.html">Forgot Password?</a>
                                 </div>
-                                <a class="btn ml-3 c5e6b cdsge c7qs0" href="index.html">Sign In</a>
+                                <button class="btn ml-3 c5e6b cdsge c7qs0" href="index.html" type="Submit">Connexion</button>
                             </div>
-                        </form>
+                        {{form_end(form)}}
                         <!-- Footer -->
                         <div class="border-slate-200 dark:border-slate-700 cannk cavzi cdrm5">
                             <div class="text-sm">
